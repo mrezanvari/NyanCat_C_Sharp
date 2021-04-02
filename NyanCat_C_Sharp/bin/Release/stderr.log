@@ -1,0 +1,20 @@
+2021-01-14 12:53:43.097 Nyan Cat[6613:222655] 
+Unhandled Exception:
+System.Exception: Could not initialize an instance of the type 'AVFoundation.AVAudioPlayer': the native 'initWithContentsOfURL:error:' method returned nil.
+It is possible to ignore this condition by setting ObjCRuntime.Class.ThrowOnInitFailure to false.
+  at Foundation.NSObject.InitializeHandle (System.IntPtr handle, System.String initSelector) [0x000ab] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at AVFoundation.AVAudioPlayer..ctor (Foundation.NSUrl url, System.IntPtr outError) [0x00046] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at AVFoundation.AVAudioPlayer.FromUrl (Foundation.NSUrl url, Foundation.NSError& error) [0x0000b] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at NyanCat_C_Sharp.ViewController.ViewDidLoad () [0x00011] in <045462b83f85453499c8c426aae42e94>:0 
+  at (wrapper managed-to-native) AppKit.NSApplication.NSApplicationMain(int,string[])
+  at AppKit.NSApplication.Main (System.String[] args) [0x00040] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at NyanCat_C_Sharp.MainClass.Main (System.String[] args) [0x00005] in <045462b83f85453499c8c426aae42e94>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.Exception: Could not initialize an instance of the type 'AVFoundation.AVAudioPlayer': the native 'initWithContentsOfURL:error:' method returned nil.
+It is possible to ignore this condition by setting ObjCRuntime.Class.ThrowOnInitFailure to false.
+  at Foundation.NSObject.InitializeHandle (System.IntPtr handle, System.String initSelector) [0x000ab] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at AVFoundation.AVAudioPlayer..ctor (Foundation.NSUrl url, System.IntPtr outError) [0x00046] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at AVFoundation.AVAudioPlayer.FromUrl (Foundation.NSUrl url, Foundation.NSError& error) [0x0000b] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at NyanCat_C_Sharp.ViewController.ViewDidLoad () [0x00011] in <045462b83f85453499c8c426aae42e94>:0 
+  at (wrapper managed-to-native) AppKit.NSApplication.NSApplicationMain(int,string[])
+  at AppKit.NSApplication.Main (System.String[] args) [0x00040] in <7765b2a9eb48460eac5629ba0ef79a46>:0 
+  at NyanCat_C_Sharp.MainClass.Main (System.String[] args) [0x00005] in <045462b83f85453499c8c426aae42e94>:0 
